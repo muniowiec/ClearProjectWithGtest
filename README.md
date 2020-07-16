@@ -9,7 +9,7 @@ project(ProjectWithGtest)
 
 
 To compile project:
-mkdir build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" 
+cd build; cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" 
 make all
 
 $ find . -executable -type f
